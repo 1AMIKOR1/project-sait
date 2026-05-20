@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% from "_card.html" import article_card %}
+{% block title %}{{ site_name }} — технологии простыми словами{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container hero-inner">
+        <span class="eyebrow">ПЕРВЫЙ ШАГ В МИР ТЕХНОЛОГИЙ</span>
+        <h1 class="hero-title">Технологии простыми словами</h1>
+        <p class="hero-subtitle">Свежие обзоры устройств, приложений и нейросетей — для тех, кто только начинает разбираться.</p>
+        <div class="hero-cta">
+            <a class="btn btn-primary" href="#all">Читать статьи</a>
+            <a class="btn btn-ghost" href="{{ url_for('about') }}">О сайте</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="eyebrow">СВЕЖИЕ ПУБЛИКАЦИИ</span>
+                <h2 class="section-title">Что почитать сегодня</h2>
+            </div>
+            <a class="section-link" href="#all">Все статьи →</a>
+        </div>
+        <div class="grid grid-3">
+            {% for a in latest_articles %}
+                {{ article_card(a, categories) }}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="section section-muted">
+    <div class="container">
+        <span class="eyebrow">РАЗДЕЛЫ</span>
+        <h2 class="section-title">О чём мы пишем</h2>
+        <div class="grid grid-4 category-grid">
+            {% for key, cat in categories.items() %}
+                <a class="category-card" href="{{ url_for('category', slug=cat.slug) }}">
+                    <div class="category-icon">●</div>
+                    <h3>{{ cat.title }}</h3>
+                    <p>{{ cat.description }}</p>
+                    <span class="category-count">{{ cat.slug|length * 0 + (all|selectattr('category','equalto',cat.slug)|list|length) }} статей</span>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="section" id="all">
+    <div class="container">
+        <span class="eyebrow">АРХИВ</span>
+        <h2 class="section-title">Все {{ all|length }} публикаций</h2>
+        <div class="grid grid-3">
+            {% for a in all %}
+                {{ article_card(a, categories) }}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <h2>Не знаете, с чего начать?</h2>
+        <p>Откройте раздел «О сайте» — там короткий путеводитель для новичков.</p>
+        <a class="btn btn-primary" href="{{ url_for('about') }}">Узнать больше</a>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Регистрация — {{ site_name }}{% endblock %}
+
+{% block content %}
+<section class="auth-section">
+    <div class="container auth-container">
+        <div class="auth-panel">
+            <span class="eyebrow">НОВЫЙ АККАУНТ</span>
+            <h1 class="auth-title">Создать аккаунт</h1>
+            <form class="auth-form" method="post">
+                <label>
+                    <span>Имя пользователя</span>
+                    <input type="text" name="username" minlength="3" autocomplete="username" required>
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" autocomplete="email" required>
+                </label>
+                <label>
+                    <span>Пароль</span>
+                    <input type="password" name="password" minlength="6" autocomplete="new-password" required>
+                </label>
+                <label>
+                    <span>Повторите пароль</span>
+                    <input type="password" name="password_confirm" minlength="6" autocomplete="new-password" required>
+                </label>
+                <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
+            </form>
+            <p class="auth-note">
+                Уже есть аккаунт?
+                <a href="{{ url_for('login') }}">Войти</a>
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}

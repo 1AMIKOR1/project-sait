@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}О сайте — {{ site_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero section-muted centered">
+    <div class="container">
+        <span class="eyebrow">О САЙТЕ</span>
+        <h1 class="page-title">Знакомьтесь, это ПервыйБайт</h1>
+        <p class="page-lead italic">Маленький онлайн-журнал, в котором мы рассказываем о технологиях так, как объяснили бы другу.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container narrow">
+        <h2>Зачем мы это делаем</h2>
+        <p>Технологии меняются быстрее, чем мы успеваем разобраться. Производители обещают чудеса, маркетологи накручивают цены, а советы в интернете часто противоречат друг другу. Мы пишем для тех, кто только начинает разбираться — и хочет понять, не утонув в терминах.</p>
+        <p>Никаких партнёрских ссылок, проплаченных обзоров и кликбейта. Только честные впечатления и проверенные советы.</p>
+    </div>
+</section>
+
+<section class="section section-muted">
+    <div class="container">
+        <h2 class="centered-title">Наши принципы</h2>
+        <div class="grid grid-3 principles">
+            <div class="principle">
+                <div class="principle-icon">◆</div>
+                <h3>Простыми словами</h3>
+                <p>Никаких заумных терминов без объяснения — пишем как в разговоре с другом.</p>
+            </div>
+            <div class="principle">
+                <div class="principle-icon">✓</div>
+                <h3>Честно</h3>
+                <p>Без партнёрских ссылок и заказных обзоров. Если что-то не понравилось — так и скажем.</p>
+            </div>
+            <div class="principle">
+                <div class="principle-icon">♥</div>
+                <h3>Для новичков</h3>
+                <p>Каждая статья пишется так, чтобы её понял человек, который только начал интересоваться темой.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

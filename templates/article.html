@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% from "_card.html" import article_card %}
+{% block title %}{{ article.title }} — {{ site_name }}{% endblock %}
+
+{% block content %}
+<article class="article">
+    <header class="article-header">
+        <div class="container article-header-inner">
+            <nav class="breadcrumbs">
+                <a href="{{ url_for('index') }}">Главная</a>
+                <span>/</span>
+                <a href="{{ url_for('category', slug=category.slug) }}">{{ category.title }}</a>
+            </nav>
+            <span class="eyebrow">{{ category.title|upper }}</span>
+            <h1 class="article-title">{{ article.title }}</h1>
+            <div class="article-meta">
+                <span>{{ article.date }}</span>
+                <span>·</span>
+                <span>{{ article.read_time }}</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="article-hero" style="background-image: url('{{ url_for('static', filename='images/' + article.hero_image) }}');"></div>
+
+    <div class="article-body container">
+        {{ article.body|safe }}
+    </div>
+</article>
+
+<section class="section section-muted">
+    <div class="container">
+        <span class="eyebrow">ЧИТАЙТЕ ТАКЖЕ</span>
+        <div class="grid grid-3">
+            {% for a in related_articles %}
+                {{ article_card(a, categories) }}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,3017 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "dAAhK",
+      "x": 0,
+      "y": 0,
+      "name": "Главная — ПервыйБайт",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "76GP2",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#EEEEEE"
+          },
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NGh55",
+              "name": "logoBox",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "333Fg",
+                  "name": "logoMark",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#FF6B1A",
+                  "cornerRadius": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l9PXt",
+                      "fill": "#FFFFFF",
+                      "content": "[1]",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "i5bT7",
+                  "fill": "#1A1A1A",
+                  "content": "ПервыйБайт",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3DHo6",
+              "name": "nav",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3uw25",
+                  "fill": "#1A1A1A",
+                  "content": "Главная",
+                  "fontFamily": "Lora",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LTw2s",
+                  "fill": "#1A1A1A",
+                  "content": "Устройства",
+                  "fontFamily": "Lora",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "kJiIr",
+                  "fill": "#1A1A1A",
+                  "content": "Приложения",
+                  "fontFamily": "Lora",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "MbpdS",
+                  "fill": "#1A1A1A",
+                  "content": "ИИ и будущее",
+                  "fontFamily": "Lora",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "I4U1Z",
+                  "fill": "#1A1A1A",
+                  "content": "Безопасность",
+                  "fontFamily": "Lora",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wW7dK",
+                  "fill": "#1A1A1A",
+                  "content": "О сайте",
+                  "fontFamily": "Lora",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YXYTy",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "#FAFAFA",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "S5Ex9",
+              "fill": "#FF6B1A",
+              "content": "ПЕРВЫЙ ШАГ В МИР ТЕХНОЛОГИЙ",
+              "fontFamily": "Montserrat",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "GiXIn",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Технологии простыми словами",
+              "textAlign": "center",
+              "fontFamily": "Lora",
+              "fontSize": 56,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "cXXmY",
+              "fill": "#555555",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Свежие обзоры устройств, приложений и нейросетей — для тех, кто только начинает разбираться.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Lora",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Q3oyF",
+              "name": "ctaRow",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Q3ZlZ",
+                  "name": "btn1",
+                  "fill": "#FF6B1A",
+                  "cornerRadius": 6,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d56AA",
+                      "fill": "#FFFFFF",
+                      "content": "Читать статьи",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ezeWX",
+                  "name": "btn2",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1A1A1A"
+                  },
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pIHIb",
+                      "fill": "#1A1A1A",
+                      "content": "О сайте",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TQvBK",
+          "name": "Свежее",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "1X36l",
+              "name": "freshHead",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HVkZO",
+                  "name": "freshHeadL",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cxGec",
+                      "fill": "#FF6B1A",
+                      "content": "СВЕЖИЕ ПУБЛИКАЦИИ",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 13,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "8lyCY",
+                      "fill": "#1A1A1A",
+                      "content": "Что почитать сегодня",
+                      "fontFamily": "Lora",
+                      "fontSize": 36,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "1qgGD",
+                  "fill": "#FF6B1A",
+                  "content": "Все статьи →",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IlvMP",
+              "name": "freshGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "IzRGc",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "c1",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1746286721374-cd541e26911a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0Nzh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "ИИ И БУДУЩЕЕ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "ChatGPT и аналоги: как пользоваться и где осторожничать"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Разбираемся, чем полезны нейросети-собеседники и почему им нельзя доверять всё подряд."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                },
+                {
+                  "id": "N04E3",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "c2",
+                  "height": "fit_content",
+                  "x": 434.6666666666667,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1526415634669-2f8899c7b517?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM1ODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "УСТРОЙСТВА"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Как выбрать первый ноутбук: на что смотреть новичку"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Процессор, память, экран, вес — простой чек-лист, чтобы не переплатить за лишнее."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                },
+                {
+                  "id": "RUSzt",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "c3",
+                  "height": "fit_content",
+                  "x": 869.3333333333334,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1762330474120-71b4057a8b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0Nzl8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "БЕЗОПАСНОСТЬ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Как придумать надёжный пароль и не забыть его"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "content": "Менеджеры паролей, фразы вместо слов и привычки, которые спасут ваши аккаунты."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SPoRh",
+          "name": "Категории",
+          "width": "fill_container",
+          "fill": "#F9F6F2",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "jbnz6",
+              "fill": "#FF6B1A",
+              "content": "РАЗДЕЛЫ",
+              "fontFamily": "Montserrat",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "736DL",
+              "fill": "#1A1A1A",
+              "content": "О чём мы пишем",
+              "fontFamily": "Lora",
+              "fontSize": 36,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "qOUTc",
+              "name": "catGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fHdwo",
+                  "name": "ct1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#EEEEEE"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0N3eA",
+                      "name": "ct1ic",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF1E6",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "5FKu1",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "smartphone",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF6B1A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dy6YH",
+                      "fill": "#1A1A1A",
+                      "content": "Устройства",
+                      "fontFamily": "Lora",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2rPH2",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Смартфоны, ноутбуки, наушники, умные часы.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DcaU2",
+                      "fill": "#FF6B1A",
+                      "content": "4 статьи",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rfPzh",
+                  "name": "ct2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#EEEEEE"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "63BCt",
+                      "name": "ct2ic",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF1E6",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "6VChi",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "layout-grid",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF6B1A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "GF1TO",
+                      "fill": "#1A1A1A",
+                      "content": "Приложения",
+                      "fontFamily": "Lora",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2SdgJ",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Мессенджеры, облака, бесплатные альтернативы.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rIELa",
+                      "fill": "#FF6B1A",
+                      "content": "3 статьи",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qOUbl",
+                  "name": "ct3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#EEEEEE"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "huBhg",
+                      "name": "ct3ic",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF1E6",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "kB6Um",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "sparkles",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF6B1A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "IzuH9",
+                      "fill": "#1A1A1A",
+                      "content": "ИИ и будущее",
+                      "fontFamily": "Lora",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FcaxS",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Нейросети, генерация изображений, новые направления.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4zhJB",
+                      "fill": "#FF6B1A",
+                      "content": "3 статьи",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pPq9z",
+                  "name": "ct4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#EEEEEE"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ULaMM",
+                      "name": "ct4ic",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF1E6",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "I86t5",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "shield",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF6B1A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CbB3E",
+                      "fill": "#1A1A1A",
+                      "content": "Интернет и безопасность",
+                      "fontFamily": "Lora",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fOVnh",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Пароли, VPN, двухфакторная аутентификация.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j6oA2",
+                      "fill": "#FF6B1A",
+                      "content": "3 статьи",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "adbKB",
+          "name": "Все статьи",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "SWm7y",
+              "fill": "#FF6B1A",
+              "content": "АРХИВ",
+              "fontFamily": "Montserrat",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Sg9WF",
+              "fill": "#1A1A1A",
+              "content": "Все 13 публикаций",
+              "fontFamily": "Lora",
+              "fontSize": 36,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "zChtp",
+              "name": "row1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "Lui7s",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "a1",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1756576357697-13dfc5fff61c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "УСТРОЙСТВА"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Смартфон 2026: что реально нужно"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 89,
+                      "content": "Какие функции стоят денег, а какие — просто маркетинг."
+                    },
+                    "Ndujf": {
+                      "y": 143
+                    }
+                  }
+                },
+                {
+                  "id": "kHKmw",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "a2",
+                  "height": "fit_content",
+                  "x": 434.6666666666667,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1757168120889-4317e57a4849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "УСТРОЙСТВА"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Беспроводные наушники: плюсы и минусы"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Чем удобны, на что обратить внимание перед покупкой."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                },
+                {
+                  "id": "qEVTc",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "a3",
+                  "height": "fit_content",
+                  "x": 869.3333333333334,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1646634426200-c953c000392e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "УСТРОЙСТВА"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Умные часы: зачем они нужны и кому подойдут"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "content": "Фитнес, уведомления, оплата — разбираем по полочкам."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "awxuK",
+              "name": "row2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "QLfEL",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "a4",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1603145733146-ae562a55031e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "ПРИЛОЖЕНИЯ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Telegram, WhatsApp и Signal: чем отличаются"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Сравнение трёх главных мессенджеров глазами обычного пользователя."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                },
+                {
+                  "id": "UztKg",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "a5",
+                  "height": "fit_content",
+                  "x": 434.6666666666667,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1646724333918-374d81688c2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "ПРИЛОЖЕНИЯ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Облачные хранилища: где безопаснее"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Google Drive, Dropbox, Яндекс.Диск — куда положить файлы."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                },
+                {
+                  "id": "vNeew",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "a6",
+                  "height": "fit_content",
+                  "x": 869.3333333333334,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1588690154757-badf4644190f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "ПРИЛОЖЕНИЯ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Бесплатные альтернативы платным программам"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "content": "Подборка инструментов, за которые не нужно платить ни рубля."
+                    },
+                    "Ndujf": {
+                      "y": 169
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PxQCS",
+              "name": "row3",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "YgT1r",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "b1",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1664526937033-fe2c11f1be25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "ИИ И БУДУЩЕЕ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Что такое нейросети простыми словами"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Без формул и заумных терминов — только суть."
+                    },
+                    "Ndujf": {
+                      "y": 148
+                    }
+                  }
+                },
+                {
+                  "id": "lUNLY",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "b2",
+                  "height": "fit_content",
+                  "x": 434.6666666666667,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1591846661384-2199b8e043eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "ИИ И БУДУЩЕЕ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Генерация изображений ИИ для начинающих"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Какие сервисы попробовать и с чего начать."
+                    },
+                    "Ndujf": {
+                      "y": 148
+                    }
+                  }
+                },
+                {
+                  "id": "e0L0y",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "b3",
+                  "height": "fit_content",
+                  "x": 869.3333333333334,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1655638616782-20bb84918106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "БЕЗОПАСНОСТЬ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Что такое VPN и нужен ли он вам"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "content": "Простое объяснение и честные сценарии использования."
+                    },
+                    "Ndujf": {
+                      "y": 143
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ORUJa",
+              "name": "row4",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "frxzY",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "b4",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1747572939189-2b25ecd746d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0ODZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "ruDYJ": {
+                      "content": "БЕЗОПАСНОСТЬ"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Двухфакторная аутентификация: зачем включать"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Как защитить аккаунты, даже если пароль украли."
+                    },
+                    "Ndujf": {
+                      "y": 148
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "sY1em",
+                  "name": "empty1",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "u3Qmj",
+                  "name": "empty2",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pNn2v",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "aKAPo",
+              "fill": "#FFFFFF",
+              "content": "Не знаете, с чего начать?",
+              "textAlign": "center",
+              "fontFamily": "Lora",
+              "fontSize": 42,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "XbtMA",
+              "fill": "#BBBBBB",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Откройте раздел «О сайте» — там короткий путеводитель для новичков.",
+              "textAlign": "center",
+              "fontFamily": "Lora",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "LfZxm",
+              "name": "ctaBtn",
+              "fill": "#FF6B1A",
+              "cornerRadius": 6,
+              "padding": [
+                16,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hsUNs",
+                  "fill": "#FFFFFF",
+                  "content": "Узнать больше",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5knuY",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#FAFAFA",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#EEEEEE"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            80,
+            30,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "N3pFB",
+              "name": "fTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gXL8r",
+                  "name": "fLeft",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "koT8W",
+                      "name": "fLogo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Lv1FW",
+                          "name": "fLogoMark",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#FF6B1A",
+                          "cornerRadius": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SdBGn",
+                              "fill": "#FFFFFF",
+                              "content": "[1]",
+                              "fontFamily": "Montserrat",
+                              "fontSize": 16,
+                              "fontWeight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "cvSyc",
+                          "fill": "#1A1A1A",
+                          "content": "ПервыйБайт",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 22,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "wHVn0",
+                      "fill": "#666666",
+                      "content": "Технологии простыми словами — для тех, кто только начинает.",
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CqkRy",
+                  "name": "fLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v7oX2",
+                      "name": "col1",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q0PJz",
+                          "fill": "#1A1A1A",
+                          "content": "Разделы",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 13,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "M19c2",
+                          "fill": "#666666",
+                          "content": "Устройства",
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GRTFl",
+                          "fill": "#666666",
+                          "content": "Приложения",
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XvEcp",
+                          "fill": "#666666",
+                          "content": "ИИ и будущее",
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "v6Bqi",
+                          "fill": "#666666",
+                          "content": "Безопасность",
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ze7rb",
+                      "name": "col2",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uiTyQ",
+                          "fill": "#1A1A1A",
+                          "content": "Сайт",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 13,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "LnYeC",
+                          "fill": "#666666",
+                          "content": "Главная",
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ecXeS",
+                          "fill": "#666666",
+                          "content": "Все статьи",
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "iggpQ",
+                          "fill": "#666666",
+                          "content": "О сайте",
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NGbbq",
+              "name": "fBottom",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#EEEEEE"
+              },
+              "padding": [
+                20,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pj6NU",
+                  "fill": "#999999",
+                  "content": "© 2026 ПервыйБайт. Все материалы — для общего ознакомления.",
+                  "fontFamily": "Lora",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7xKFj",
+      "x": 1600,
+      "y": 0,
+      "name": "Component/ArticleCard",
+      "reusable": true,
+      "clip": true,
+      "width": 340,
+      "fill": "#FFFFFF",
+      "cornerRadius": 8,
+      "stroke": {
+        "thickness": 1,
+        "fill": "#EEEEEE"
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "QF48I",
+          "name": "image",
+          "metadata": {
+            "type": "unsplash",
+            "username": "thiagojapyassu",
+            "link": "https://unsplash.com/@thiagojapyassu",
+            "author": "thiago japyassu"
+          },
+          "width": "fill_container",
+          "height": 200,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1658690831254-c97fba31bcfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjMzNDJ8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "S3Eym",
+              "fill": "#888888",
+              "content": "Изображение",
+              "fontFamily": "Lora",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UJyqH",
+          "name": "body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "ruDYJ",
+              "name": "category",
+              "fill": "#FF6B1A",
+              "content": "УСТРОЙСТВА",
+              "fontFamily": "Montserrat",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "50ghI",
+              "name": "title",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Заголовок статьи в две строки максимум",
+              "lineHeight": 1.3,
+              "fontFamily": "Lora",
+              "fontSize": 20,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "oiq4w",
+              "name": "excerpt",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Краткое описание статьи, которое раскрывает её суть в нескольких предложениях.",
+              "lineHeight": 1.5,
+              "fontFamily": "Lora",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Ndujf",
+              "name": "date",
+              "fill": "#999999",
+              "content": "8 апреля 2026",
+              "fontFamily": "Lora",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QWbsC",
+      "x": 1600,
+      "y": 600,
+      "name": "Страница категории",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "UARm9",
+          "type": "ref",
+          "ref": "lnlzr",
+          "width": "fill_container",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "frame",
+          "id": "97fDI",
+          "name": "catHero",
+          "width": "fill_container",
+          "fill": "#FAFAFA",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            80,
+            80,
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ictwK",
+              "name": "crumbs",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cXIvw",
+                  "fill": "#999999",
+                  "content": "Главная",
+                  "fontFamily": "Lora",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "szPZY",
+                  "fill": "#999999",
+                  "content": "/",
+                  "fontFamily": "Lora",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3iBAU",
+                  "fill": "#FF6B1A",
+                  "content": "Устройства",
+                  "fontFamily": "Lora",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "m0yuU",
+              "fill": "#FF6B1A",
+              "content": "УСТРОЙСТВА",
+              "fontFamily": "Montserrat",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Aowxo",
+              "fill": "#1A1A1A",
+              "content": "Смартфоны, ноутбуки и гаджеты",
+              "fontFamily": "Lora",
+              "fontSize": 48,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "KImyO",
+              "fill": "#555555",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Что выбрать, на что смотреть и чего избегать. Без маркетинга — простыми словами.",
+              "lineHeight": 1.5,
+              "fontFamily": "Lora",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j0fHC",
+          "name": "catGrid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80,
+            80,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "dE7Ql",
+              "name": "cr1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "4Eelg",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "p1",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1658988332863-0461ddfb6341?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM1ODR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Как выбрать первый ноутбук"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 89,
+                      "content": "Чек-лист характеристик для новичка."
+                    },
+                    "Ndujf": {
+                      "y": 122
+                    }
+                  }
+                },
+                {
+                  "id": "9iXWN",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "p2",
+                  "height": "fit_content",
+                  "x": 434.6666666666667,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1566779124963-593ede089ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0OTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Смартфон 2026: что реально нужно"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 89,
+                      "content": "Маркетинг против реальной пользы."
+                    },
+                    "Ndujf": {
+                      "y": 122
+                    }
+                  }
+                },
+                {
+                  "id": "9bAuo",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "p3",
+                  "height": "fit_content",
+                  "x": 869.3333333333334,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1581548582026-c0eef4f81308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0OTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Беспроводные наушники: за и против"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "content": "Чем удобны и где скрыты подвохи."
+                    },
+                    "Ndujf": {
+                      "y": 148
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cM0Ga",
+              "name": "cr2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "Mtjqb",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "p4",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1578853420318-eb18e6a618b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0OTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Умные часы: кому они нужны"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 89,
+                      "content": "Фитнес, уведомления, оплата."
+                    },
+                    "Ndujf": {
+                      "y": 122
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "OiAXB",
+                  "name": "ph1",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "1GOuQ",
+                  "name": "ph2",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "IiIS3",
+          "type": "ref",
+          "ref": "WLnpb",
+          "width": "fill_container",
+          "x": 0,
+          "y": 1284
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QjHM0",
+      "x": 3200,
+      "y": 600,
+      "name": "Страница статьи",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "6tPMb",
+          "type": "ref",
+          "ref": "lnlzr",
+          "width": "fill_container",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "frame",
+          "id": "twCrM",
+          "name": "artHeroBox",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            60,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "50NgE",
+              "name": "artHero",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qzkyl",
+                  "name": "artCrumbs",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FSuhW",
+                      "fill": "#999999",
+                      "content": "Главная",
+                      "fontFamily": "Lora",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V2yFy",
+                      "fill": "#999999",
+                      "content": "/",
+                      "fontFamily": "Lora",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IA6o9",
+                      "fill": "#999999",
+                      "content": "ИИ и будущее",
+                      "fontFamily": "Lora",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "vCexo",
+                  "fill": "#FF6B1A",
+                  "content": "ИИ И БУДУЩЕЕ",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "bold",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "L7BB2",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ChatGPT и аналоги: как пользоваться и где осторожничать",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Lora",
+                  "fontSize": 42,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "Ojhap",
+                  "name": "artMeta",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0Zwy7",
+                      "fill": "#888888",
+                      "content": "8 апреля 2026",
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bFN9x",
+                      "fill": "#888888",
+                      "content": "·",
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0cUSH",
+                      "fill": "#888888",
+                      "content": "7 минут чтения",
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M7xM2",
+          "name": "artImg",
+          "metadata": {
+            "type": "unsplash",
+            "username": "mjh_shikder",
+            "link": "https://unsplash.com/@mjh_shikder",
+            "author": "MJH SHIKDER"
+          },
+          "width": "fill_container",
+          "height": 420,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1634834300387-8015d9fb7550?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjMzNDJ8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "VHkUv",
+              "fill": "#888888",
+              "content": "Заглавное изображение статьи",
+              "fontFamily": "Lora",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VGOMT",
+          "name": "artBodyBox",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            60,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "puseA",
+              "name": "artBody",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hY6uI",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Нейросети-собеседники прочно вошли в нашу жизнь. ChatGPT, Claude, Gemini и десятки других сервисов готовы ответить почти на любой вопрос. Но удобство приходит с подвохами, о которых стоит знать заранее.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Lora",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "HFUml",
+                  "fill": "#1A1A1A",
+                  "content": "Что такое нейросеть-собеседник",
+                  "fontFamily": "Lora",
+                  "fontSize": 28,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "cVmt6",
+                  "fill": "#333333",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Это программа, обученная на огромном количестве текстов из интернета. Она умеет продолжать вашу мысль так, чтобы ответ был похож на человеческий. Она не «знает» — она угадывает наиболее вероятный следующий кусок текста.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Lora",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "8yTHA",
+                  "fill": "#1A1A1A",
+                  "content": "Где её удобно применять",
+                  "fontFamily": "Lora",
+                  "fontSize": 28,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "nGugj",
+                  "fill": "#333333",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Объяснить сложный термин простыми словами, написать черновик письма, перевести текст, придумать идею для подарка или составить список покупок. Везде, где результат потом легко проверить.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Lora",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "GJd3y",
+                  "name": "quoteBox",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "left": 4
+                    },
+                    "fill": "#FF6B1A"
+                  },
+                  "layout": "vertical",
+                  "padding": [
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gTuA9",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Главное правило: никогда не доверяйте нейросети там, где ошибка может стоить денег, здоровья или репутации.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 20,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "5dVbz",
+                  "fill": "#1A1A1A",
+                  "content": "Чего стоит избегать",
+                  "fontFamily": "Lora",
+                  "fontSize": 28,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "cR4wF",
+                  "fill": "#333333",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Не спрашивайте у нейросети медицинских и юридических советов. Не передавайте ей пароли, номера карт и личные документы. И помните: красивый уверенный ответ ещё не значит правильный.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Lora",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Scona",
+          "name": "relSec",
+          "width": "fill_container",
+          "fill": "#FAFAFA",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "hzVqL",
+              "fill": "#FF6B1A",
+              "content": "ЧИТАЙТЕ ТАКЖЕ",
+              "fontFamily": "Montserrat",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "575Cc",
+              "name": "relGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "abHMs",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "r1",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1538170819641-15b741105cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0OTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Что такое нейросети простыми словами"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "Без формул и заумных терминов."
+                    },
+                    "Ndujf": {
+                      "y": 148
+                    }
+                  }
+                },
+                {
+                  "id": "oDA6i",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "r2",
+                  "height": "fit_content",
+                  "x": 434.6666666666667,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1591846661384-2199b8e043eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0OTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Генерация изображений ИИ для начинающих"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "y": 115,
+                      "content": "С чего начать и какие сервисы попробовать."
+                    },
+                    "Ndujf": {
+                      "y": 148
+                    }
+                  }
+                },
+                {
+                  "id": "KEDiX",
+                  "type": "ref",
+                  "ref": "7xKFj",
+                  "width": "fill_container",
+                  "name": "r3",
+                  "height": "fit_content",
+                  "x": 869.3333333333334,
+                  "descendants": {
+                    "QF48I": {
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1762330468765-cf931a2af2dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NjM0OTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "S3Eym": {
+                      "x": 158.83333333333334
+                    },
+                    "UJyqH": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "50ghI": {
+                      "width": "fill_container",
+                      "content": "Как придумать надёжный пароль"
+                    },
+                    "oiq4w": {
+                      "width": "fill_container",
+                      "content": "Простые приёмы и полезные привычки."
+                    },
+                    "Ndujf": {
+                      "y": 122
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "QKaaZ",
+          "type": "ref",
+          "ref": "WLnpb",
+          "width": "fill_container",
+          "x": 0,
+          "y": 2173
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7sEoL",
+      "x": 4800,
+      "y": 600,
+      "name": "О сайте",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "D3LrB",
+          "type": "ref",
+          "ref": "lnlzr",
+          "width": "fill_container",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "frame",
+          "id": "7pnZg",
+          "name": "abHero",
+          "width": "fill_container",
+          "fill": "#FAFAFA",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            100,
+            80,
+            60,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sjDyB",
+              "fill": "#FF6B1A",
+              "content": "О САЙТЕ",
+              "fontFamily": "Montserrat",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "CiPPB",
+              "fill": "#1A1A1A",
+              "content": "Знакомьтесь, это ПервыйБайт",
+              "textAlign": "center",
+              "fontFamily": "Lora",
+              "fontSize": 48,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "aqWK4",
+              "fill": "#555555",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Маленький онлайн-журнал, в котором мы рассказываем о технологиях так, как объяснили бы другу.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Lora",
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iGyqx",
+          "name": "abMission",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FikfZ",
+              "name": "abMissionInner",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TPeb3",
+                  "fill": "#1A1A1A",
+                  "content": "Зачем мы это делаем",
+                  "fontFamily": "Lora",
+                  "fontSize": 32,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "XceID",
+                  "fill": "#333333",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Технологии меняются быстрее, чем мы успеваем разобраться. Производители обещают чудеса, маркетологи накручивают цены, а советы в интернете часто противоречат друг другу. Мы пишем для тех, кто только начинает разбираться — и хочет понять, не утонув в терминах.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Lora",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "kU9W7",
+                  "fill": "#333333",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Никаких партнёрских ссылок, проплаченных обзоров и кликбейта. Только честные впечатления и проверенные советы.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Lora",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tr406",
+          "name": "abPrinciples",
+          "width": "fill_container",
+          "fill": "#F9F6F2",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            80,
+            80,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "5lODR",
+              "fill": "#1A1A1A",
+              "content": "Наши принципы",
+              "fontFamily": "Lora",
+              "fontSize": 32,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "6w6Jj",
+              "name": "prGrid",
+              "width": 1280,
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NDgMu",
+                  "name": "pp1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GdYy5",
+                      "name": "pp1ic",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF1E6",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "NIuLH",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "book-open",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF6B1A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "D3pFf",
+                      "fill": "#1A1A1A",
+                      "content": "Простыми словами",
+                      "fontFamily": "Lora",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ggFyu",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Никаких заумных терминов без объяснения — пишем как в разговоре с другом.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "opP1b",
+                  "name": "pp2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3lCJk",
+                      "name": "pp2ic",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF1E6",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "5eFc0",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF6B1A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZOW4Q",
+                      "fill": "#1A1A1A",
+                      "content": "Честно",
+                      "fontFamily": "Lora",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uIvrS",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Без партнёрских ссылок и заказных обзоров. Если что-то не понравилось — так и скажем.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sGwLx",
+                  "name": "pp3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dEOS8",
+                      "name": "pp3ic",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF1E6",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "JYYtZ",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "users",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF6B1A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "QQtrw",
+                      "fill": "#1A1A1A",
+                      "content": "Для новичков",
+                      "fontFamily": "Lora",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ug91Q",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Каждая статья пишется так, чтобы её понял человек, который только начал интересоваться темой.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gxEYt",
+          "type": "ref",
+          "ref": "WLnpb",
+          "width": "fill_container",
+          "x": 0,
+          "y": 1286
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lnlzr",
+      "x": 1600,
+      "y": 2700,
+      "name": "Component/Header",
+      "reusable": true,
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "stroke": {
+        "thickness": {
+          "bottom": 1
+        },
+        "fill": "#EEEEEE"
+      },
+      "padding": [
+        20,
+        80
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "N5qY3",
+          "name": "hLogo",
+          "gap": 10,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "CCIKd",
+              "name": "hMark",
+              "width": 36,
+              "height": 36,
+              "fill": "#FF6B1A",
+              "cornerRadius": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TNozY",
+                  "fill": "#FFFFFF",
+                  "content": "[1]",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "DUYpP",
+              "fill": "#1A1A1A",
+              "content": "ПервыйБайт",
+              "fontFamily": "Montserrat",
+              "fontSize": 22,
+              "fontWeight": "bold"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zh1rq",
+          "name": "hNav",
+          "gap": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GPchw",
+              "fill": "#1A1A1A",
+              "content": "Главная",
+              "fontFamily": "Lora",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "rkQ2A",
+              "fill": "#1A1A1A",
+              "content": "Устройства",
+              "fontFamily": "Lora",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "IlCKX",
+              "fill": "#1A1A1A",
+              "content": "Приложения",
+              "fontFamily": "Lora",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Mg3Zd",
+              "fill": "#1A1A1A",
+              "content": "ИИ и будущее",
+              "fontFamily": "Lora",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Set0o",
+              "fill": "#1A1A1A",
+              "content": "Безопасность",
+              "fontFamily": "Lora",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ZjUAC",
+              "fill": "#1A1A1A",
+              "content": "О сайте",
+              "fontFamily": "Lora",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WLnpb",
+      "x": 1600,
+      "y": 2820,
+      "name": "Component/Footer",
+      "reusable": true,
+      "width": 1440,
+      "fill": "#FAFAFA",
+      "stroke": {
+        "thickness": {
+          "top": 1
+        },
+        "fill": "#EEEEEE"
+      },
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        60,
+        80,
+        30,
+        80
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "R2jYC",
+          "name": "fT",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "9BucX",
+              "name": "fL",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uDwcC",
+                  "name": "fLg",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cIe9L",
+                      "name": "fM",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#FF6B1A",
+                      "cornerRadius": 6,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "w1PAu",
+                          "fill": "#FFFFFF",
+                          "content": "[1]",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cppq0",
+                      "fill": "#1A1A1A",
+                      "content": "ПервыйБайт",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "a5fDZ",
+                  "fill": "#666666",
+                  "content": "Технологии простыми словами — для тех, кто только начинает.",
+                  "fontFamily": "Lora",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "a1xg5",
+          "name": "fB",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#EEEEEE"
+          },
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "GpMpq",
+              "fill": "#999999",
+              "content": "© 2026 ПервыйБайт. Все материалы — для общего ознакомления.",
+              "fontFamily": "Lora",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

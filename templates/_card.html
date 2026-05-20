@@ -1,0 +1,11 @@
+{% macro article_card(article, categories) %}
+<a class="article-card" href="{{ url_for('article', slug=article.slug) }}">
+    <div class="card-image" style="background-image: url('{{ url_for('static', filename='images/' + article.image) }}');"></div>
+    <div class="card-body">
+        <span class="card-category">{{ categories[article.category].title|upper }}</span>
+        <h3 class="card-title">{{ article.title }}</h3>
+        <p class="card-excerpt">{{ article.excerpt }}</p>
+        <span class="card-date">{{ article.date }}</span>
+    </div>
+</a>
+{% endmacro %}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ site_name }}{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="logo" href="{{ url_for('index') }}">
+            <span class="logo-mark">[1]</span>
+            <span class="logo-text">{{ site_name }}</span>
+        </a>
+        <nav class="main-nav">
+            <a href="{{ url_for('index') }}">Главная</a>
+            {% for key, cat in categories.items() %}
+                <a href="{{ url_for('category', slug=cat.slug) }}">{{ cat.title }}</a>
+            {% endfor %}
+            <a href="{{ url_for('about') }}">О сайте</a>
+            {% if current_user %}
+                <a href="{{ url_for('profile') }}">{{ current_user.username }}</a>
+                <a href="{{ url_for('logout') }}">Выйти</a>
+            {% else %}
+                <a href="{{ url_for('login') }}">Войти</a>
+                <a class="nav-accent" href="{{ url_for('register') }}">Регистрация</a>
+            {% endif %}
+        </nav>
+    </div>
+</header>
+
+<main>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="container flash-wrap">
+                {% for category, message in messages %}
+                    <div class="flash flash-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a class="logo" href="{{ url_for('index') }}">
+                    <span class="logo-mark">[1]</span>
+                    <span class="logo-text">{{ site_name }}</span>
+                </a>
+                <p class="footer-tagline">Технологии простыми словами для тех, кто только начинает.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Разделы</h4>
+                    {% for key, cat in categories.items() %}
+                        <a href="{{ url_for('category', slug=cat.slug) }}">{{ cat.title }}</a>
+                    {% endfor %}
+                </div>
+                <div class="footer-col">
+                    <h4>Сайт</h4>
+                    <a href="{{ url_for('index') }}">Главная</a>
+                    <a href="{{ url_for('about') }}">О сайте</a>
+                    {% if current_user %}
+                        <a href="{{ url_for('profile') }}">Профиль</a>
+                    {% else %}
+                        <a href="{{ url_for('login') }}">Войти</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 {{ site_name }}. Все материалы для общего ознакомления.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

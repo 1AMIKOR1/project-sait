@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Профиль — {{ site_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero section-muted centered">
+    <div class="container">
+        <span class="eyebrow">ЛИЧНЫЙ КАБИНЕТ</span>
+        <h1 class="page-title">Здравствуйте, {{ current_user.username }}</h1>
+        <p class="page-lead">Здесь отображаются данные вашего аккаунта.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container narrow profile-layout">
+        <div class="profile-card">
+            <div>
+                <span class="profile-label">Имя пользователя</span>
+                <strong>{{ current_user.username }}</strong>
+            </div>
+            <div>
+                <span class="profile-label">Email</span>
+                <strong>{{ current_user.email }}</strong>
+            </div>
+            <div>
+                <span class="profile-label">Дата регистрации</span>
+                <strong>{{ current_user.created_at|msk_datetime }}</strong>
+            </div>
+            <a class="btn btn-ghost" href="{{ url_for('logout') }}">Выйти из аккаунта</a>
+        </div>
+
+        <div class="profile-card password-card">
+            <div class="profile-card-head">
+                <h2>Сменить пароль</h2>
+            </div>
+            <form class="auth-form" method="post" action="{{ url_for('change_password') }}">
+                <label>
+                    <span>Текущий пароль</span>
+                    <input type="password" name="current_password" autocomplete="current-password" required>
+                </label>
+                <label>
+                    <span>Новый пароль</span>
+                    <input type="password" name="new_password" minlength="6" autocomplete="new-password" required>
+                </label>
+                <label>
+                    <span>Повторите новый пароль</span>
+                    <input type="password" name="new_password_confirm" minlength="6" autocomplete="new-password" required>
+                </label>
+                <button class="btn btn-primary" type="submit">Сохранить пароль</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

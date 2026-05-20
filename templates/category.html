@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% from "_card.html" import article_card %}
+{% block title %}{{ category.title }} — {{ site_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero section-muted">
+    <div class="container">
+        <nav class="breadcrumbs">
+            <a href="{{ url_for('index') }}">Главная</a>
+            <span>/</span>
+            <span class="current">{{ category.title }}</span>
+        </nav>
+        <span class="eyebrow">{{ category.title|upper }}</span>
+        <h1 class="page-title">{{ category.subtitle }}</h1>
+        <p class="page-lead">{{ category.description }}</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        {% if articles %}
+        <div class="grid grid-3">
+            {% for a in articles %}
+                {{ article_card(a, categories) }}
+            {% endfor %}
+        </div>
+        {% else %}
+            <p class="empty">В этом разделе пока нет статей.</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}
